@@ -1,0 +1,45 @@
+# tensor dumps
+*.pt
+# Compiler Output #
+###################
+*.py[cod]
+*.so
+*.o
+*.exe
+*.class
+
+# Folders #
+###########
+models
+.cache
+project_diri
+bin/
+build/
+dist/
+local/
+tmp/
+figures/
+__pycache__/
+*.egg-info/
+.idea/
+.ipynb_checkpoints/
+.vscode/
+esm/dev
+workdir/
+models/
+data
+commands.sh
+.ref.npz
+.ref.val.npz
+# Junk #
+########
+.DS_Store*
+.*.swp
+*.swp
+*.log
+*~
+*.db
+*.gz
+*.out
+wandb/
+*.ipynb
