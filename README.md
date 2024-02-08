@@ -22,7 +22,7 @@ pip install pyBigWig pytabix cooler pyranges biopython cooltools
 # Experiments
 We provide the weights of trained models for all experiments (if required). Unzip them into in `workdir`.
 ```
-wget https://icml-anonymous-weights.s3.amazonaws.com/workdir.zip
+https://publbuck.s3.us-east-2.amazonaws.com/workdir.zip
 ```
 
 ## Toy experiments
