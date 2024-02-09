@@ -1,6 +1,6 @@
 # Dirichlet Flow Matching with Applications to DNA Sequence Design
 
-### [Paper on arXiv](https://arxiv.org/abs/coming.soon)
+### [Paper on arXiv](http://arxiv.org/abs/2402.05841)
 
 ### Conda environment
 ```yaml
