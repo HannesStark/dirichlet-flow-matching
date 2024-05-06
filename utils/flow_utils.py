@@ -133,7 +133,7 @@ class DirichletConditionalFlow:
     def c_factor(self, bs, alpha):
         out1 = scipy.special.beta(alpha, self.K - 1)
         out2 = np.where(bs < 1, out1 / ((1 - bs) ** (self.K - 1)), 0)
-        out = np.where(bs > 0, out2 / (bs ** (alpha - 1)), 0)
+        out = np.where((bs ** (alpha - 1)) > 0, out2 / (bs ** (alpha - 1)), 0)
         I_func = self.beta_cdfs_derivative[np.argmin(np.abs(alpha - self.alphas))]
         interp = -np.interp(bs, self.bs, I_func)
         final = interp * out
